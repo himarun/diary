@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <title>Diary</title>
+</head>
+<body>
+    <h1>2025_08_21_Thu</h1>
+    <p>今日はレポートを終わらせる勢いで頑張ろうと決意していたけどわからなくて心が折れたから明日やる。<br>
+        心が折れた後は歴史のレポート書くために映画を見て昼寝して、夜はタイピングとpicoをやった。タイピングにむきになりすぎた。<br>
+
+        今日解いたpicoの問題をいくつか<br>
+
+        ・Forensics/Medium/flags are stepic<br>
+        このサイトを見て解いた<a href="https://zenn.dev/tetsurou/articles/d232c9075e318e#flags-are-stepic---100pt">https://zenn.dev/tetsurou/articles/</a><br>
+        どうやらstepicというツールを使って画像に隠されたファイルを抽出するらしい。stepicはSteganography用のツールで画像に文字とかファイルを隠せるツールみたいですがよくわかりません。遊んでみたい<br>
+        あとこのサイト勉強になるから貼っておく<a href="https://qiita.com/knqyf263/items/6ebf06e27be7c48aab2e#stepic">Forensics入門（CTF）</a><br>
+
+        ・Forensics/Medium/DISKO 2<br>
+        こいつは正直よくわからなかった。このサイト見て解いた<a href="https://omapol.medium.com/disko2-picoctf-writeup-eaf31ebebecf">DISKO2 — PicoCTF Writeup</a><br>
+        なんで.img形式で抽出したのか...なんで答えもどきがいっぱい出てきたのか...なんで strings part1.img | grep pico って打ったら答えがわかるのか...<br>
+        BURPってBurpsuiteのことであってる？これの使い方も忘れたから復習せねば<br>
+
+        ・Web Exploitation/Easy/SSTI1<br>
+        こいつはまじでわからん。そもそもSSTIというものを初めて知った。こちらのサイト<a href="https://blog.hamayanhamayan.com/entry/2021/12/15/225142">CTFのWebセキュリティにおけるSSTIまとめ</a>によると、<br>
+        "Template Injection<br>
+        テンプレートエンジン: データの表示場所を埋め込んだhtmlなどのテンプレートに対して、適切に変数の中身を埋め込んで出力するエンジン<br>
+        この機能を悪用し、悪意ある文字列を入力することで、意図しない変数の中身を表示したり、RCEを起こしたりする脆弱性。<br>
+        クライアント側かサーバ側かで2通りある。<br>
+        SSTI: Server-Side Template Injection, Server-Sideでテンプレートエンジンを動かして色々やる<br>
+        CSTI: Client-Side Template Injection, Client-Sideでテンプレートエンジンを動かして色々やる"<br>
+        ということらしい。この問題はどうやらJinja2というテンプレートエンジン(?)であるようだが、よくわからん。わからんすぎたためflagは送信していない。未来の自分に託す。<br>
+        参考にしたサイト：<a href="https://qiita.com/kotenpan7255/items/0a6661d837d5bdcca66b#easy-ssti1---100pts">picoCTF2025 writeup (Web Exploitation)</a>、
+        <a href="https://zenn.dev/claustra01/articles/733856e685bd54#ssti1-%5B100pt%5D">picoCTF 2025 簡易Writeup</a><br>
+
+        そろそろHTMLとかCSSの勉強をしないとやりにくくなってきた。行間空けたい（）JavaScriptとかPHPも操りたい<br>
+        ちょっとずつではあるけどLinuxのコマンド叩けるようになってきておもろい。
+    </p>
+</body>
+</html>
